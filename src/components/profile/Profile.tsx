@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import getProfile from '../../services/profileAPI'
 
 function Profile() {
-  const [profile, setProfile] = useState(null);
+  const [profile, setProfile] = useState<{ name: string } | null>(null);
 
   useEffect(() => {
     getProfile().then(data => setProfile(data));
