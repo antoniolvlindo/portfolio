@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react'
 import getProfile from './services/profileAPI'
 import Profile from './components/profile/Profile'
 import Navbar from './components/navbar/Navbar';
-
+import 'normalize.css';
 
 function App() {
   const [profile, setProfile] = useState<{ avatar_url: string; name: string } | null>(null);
