@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react'
 import getProfile from './services/profileAPI'
 import Profile from './components/profile/Profile'
 import Navbar from './components/navbar/Navbar';
+import './tailwind.css';
 import 'normalize.css';
 
 function App() {

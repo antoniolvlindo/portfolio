@@ -1,4 +1,3 @@
-import React from "react";
 import "./Profile.css";
 
 interface ProfileProps {
@@ -14,12 +13,12 @@ function Profile({ profile }: ProfileProps) {
   }
 
   return (
-    <div className="profile-component">
+    <div className="text-center">
+      <img className="flex justify-center mb-16" src={profile.avatar_url} alt="" />
       <div>
       <h1>Olá! Me chamo  <br /> {profile.name}</h1>
       <h2>Sou um desenvolvedor Full Stack.</h2>
       </div>
-      <img src={profile.avatar_url} alt="" />
     </div>
   );
 }
