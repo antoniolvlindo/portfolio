@@ -14,7 +14,9 @@ function Profile({ profile }: ProfileProps) {
 
   return (
     <div className="text-center">
-      <img className="flex justify-center mb-16" src={profile.avatar_url} alt="" />
+      <div className="flex justify-center mb-16">
+        <img src={profile.avatar_url} alt="" className="mainfoto"/>
+      </div>
       <div>
       <h1>Olá! Me chamo  <br /> {profile.name}</h1>
       <h2>Sou um desenvolvedor Full Stack.</h2>

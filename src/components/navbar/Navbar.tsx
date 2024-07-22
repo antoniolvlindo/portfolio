@@ -1,18 +1,11 @@
-import React from 'react'
-import './Navbar.css'
+import React from 'react';
+import allogo from '../../assets/allogo.png';
 
 function Navbar() {
   return (
-    <nav className="navbar">
-      <div className="navbar-brand">
-        <img src="" alt="" />
-        <a href="#">Antonio Lindo</a>
-      </div>
-      <ul className="navbar-links">
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Projetos</a></li>
-        <li><a href="#">Contato</a></li>
-      </ul>
+    <nav className="flex items-center justify-between mb-40">
+      <img src={allogo} alt="Logo" width="60px"/>
+      <button className="px-7 py-3 md:px-9 md:py-4 bg-white font-medium md:font-semibold text-gray-700 text-md rounded-md hover:bg-gray-700 hover:text-white transition ease-linear duration-500">Get my CV</button>
     </nav>
   );
 }
