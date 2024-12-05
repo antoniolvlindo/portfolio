@@ -1,18 +1,35 @@
-.profile-component {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: start;
-    margin-top: 50px;
-  }
-  
-  .profile-component img {
-    border-radius: 50%;
-    margin-right: 20px;
-    padding: 3rem;
-  }
+.mainfoto {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
 
-.mainfoto{
-  height: 200px;
-  border-radius: 100px;
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.mb-16 {
+  margin-bottom: 4rem;
+}
+
+.space-x-4 > * + * {
+  margin-left: 1rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+i {
+  font-size: 24px;
+  color: #4A5568; /* Tailwind's gray-700 */
+  transition: color 0.3s;
+}
+
+i:hover {
+  color: #2D3748; /* Tailwind's gray-800 */
 }
