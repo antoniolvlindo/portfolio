@@ -22,7 +22,7 @@ function PortfolioSection() {
                   <p className="font-normal text-gray-500 text-sm md:text-base">
                     {project.description}
                   </p>
-                  <p className="font-normal text-gray-500 text-sm md:text-base">
+                  <p className="font-normal text-blue-500 text-sm md:text-base">
                     <a href={project.github} target="_blank" rel="noopener noreferrer">GitHub</a>
                     {project.link && (
                       <>
