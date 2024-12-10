@@ -9,7 +9,6 @@ import PortfolioSection from './components/portfolio/portfolio';
 import EducationSection from './components/education/education';
 import SkillsSection from './components/skills/skills';
 import ExperienceSection from './components/experience/experience';
-import BrandsSection from './components/brands/brands';
 import Footer from './components/footer/footer';
 
 function App() {
@@ -28,7 +27,6 @@ function App() {
       <EducationSection />
       <SkillsSection />
       <ExperienceSection />
-      <BrandsSection />
       <Footer />
     </div>
   )
