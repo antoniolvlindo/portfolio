@@ -1,3 +1,18 @@
+const abouts = [
+  {
+    title: "Minha Trajetória",
+    description: "Iniciei minha transição de carreira há um ano, estudando programação e cursando Ciências da Computação. Tenho experiência com projetos usando JavaScript e TypeScript, tanto no front-end quanto no back-end, e estou expandindo meus conhecimentos em C# e .NET. Minha paixão é trabalhar no desenvolvimento back-end, mas também sou versátil no front-end."
+  },
+  {
+    title: "Meu Estilo de Trabalho",
+    description: "Sou uma pessoa que valoriza o equilíbrio entre ajudar os outros e manter o foco. Gosto de ambientes descontraídos, onde as pessoas colaboram e compartilham conhecimentos, mas também sabem entregar resultados. Meu objetivo é sempre contribuir para projetos desafiadores e de impacto."
+  },
+  {
+    title: "Um pouco sobre mim<",
+    description: "Sou carioca, atualmente moro em Volta Redonda com minha noiva e nossos dois cachorros, Bud e Lucky. Gosto de cozinhar, ver filmes e séries e as vezes sair para comer algo diferente. Esses momentos me ajudam a recarregar as energias para que a mente nunca falhe."
+  },
+]
+
 const projects = [
   {
     title: "Recipes App",
@@ -80,4 +95,4 @@ const experiences = [
   }
 ];
 
-export { projects, educations, experiences};
+export { projects, educations, experiences, abouts };
