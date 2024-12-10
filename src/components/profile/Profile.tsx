@@ -29,7 +29,7 @@ function Profile({ profile }: ProfileProps) {
       <div>
       <h1>Olá! Me chamo  <br /> {profile.name}</h1>
       <h2>Desenvolvedor Full Stack.</h2>
-      <div className="flex justify-center space-x-4 mt-4">
+      <div className="flex flex-wrap justify-center space-x-4 mt-4">
         <img src={nodeIcon} alt="NodeJS" className="icon"/>
         <img src={expressIcon} alt="Express" className="icon"/>
         <img src={typescriptIcon} alt="TypeScript" className="icon"/>
