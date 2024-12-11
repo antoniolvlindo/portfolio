@@ -1,4 +1,3 @@
-import React from 'react';
 import email from '../../assets/icons/o-email.png';
 import whatsapp from '../../assets/icons/whatsapp.png';
 import linkedin from '../../assets/icons/linkedin.png';

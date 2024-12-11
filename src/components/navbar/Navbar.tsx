@@ -1,4 +1,3 @@
-import React from 'react';
 import allogo from '../../assets/allogo.png';
 
 function Navbar() {

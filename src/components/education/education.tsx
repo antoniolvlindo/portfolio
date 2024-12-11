@@ -1,4 +1,3 @@
-import React from 'react';
 import { educations } from '../../services/data';
 
 function EducationSection() {

@@ -1,4 +1,3 @@
-import React from 'react';
 import { experiences } from '../../services/data'
 
 function ExperienceSection() {

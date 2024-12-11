@@ -1,4 +1,3 @@
-import React from 'react';
 import { abouts } from '../../services/data'
 
 function FeaturesSection() {
