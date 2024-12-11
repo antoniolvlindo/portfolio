@@ -9,7 +9,7 @@ const abouts = [
   },
   {
     title: "Um pouco sobre mim",
-    description: "Sou carioca, atualmente moro em Volta Redonda com minha noiva e nossos dois cachorros, Bud e Lucky. Gosto de cozinhar, ver filmes e séries e as vezes sair para comer algo diferente. Esses momentos me ajudam a recarregar as energias para que a mente nunca falhe."
+    description: "Sou carioca, atualmente moro em Volta Redonda com minha noiva e nossos dois cachorros, Bud e Lucky. Gosto de cozinhar, ver filmes e séries e as vezes sair para comer algo diferente mas nunca deixando de ir para a academia. Esses momentos me ajudam a recarregar as energias para que a mente nunca falhe."
   },
 ]
 
@@ -65,7 +65,12 @@ const educations = [
     title: "Escola Técnica Electra - Técnico em Eletrotécnica",
     period: "Conclusão em Dezembro de 2009",
     description: ""
-  }
+  },
+  {
+    title: "Delfin English School - Dublin, Irlanda",
+    period: "2017",
+    description: "Intercâmbio para Irlanda onde pude melhorar minhas skills em inglês."
+  },
 ];
 
 const skills = [
@@ -92,6 +97,10 @@ const skills = [
   {
     title: "Habilidades Interpessoais",
     exemples: "Abertura à ideias e possibilidades, Autorregulação, Autogestão e organização do tempo, Tomada de decisão coletiva, Simplificação de processos para redução de tempo",
+  },
+  {
+    title: "Línguas",
+    exemples: "Ingles fluente e Espanhol avançado",
   },
 ]
 
