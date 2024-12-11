@@ -8,7 +8,7 @@ const abouts = [
     description: "Sou uma pessoa que valoriza o equilíbrio entre ajudar os outros e manter o foco. Gosto de ambientes descontraídos, onde as pessoas colaboram e compartilham conhecimentos, mas também sabem entregar resultados. Meu objetivo é sempre contribuir para projetos desafiadores e de impacto."
   },
   {
-    title: "Um pouco sobre mim<",
+    title: "Um pouco sobre mim",
     description: "Sou carioca, atualmente moro em Volta Redonda com minha noiva e nossos dois cachorros, Bud e Lucky. Gosto de cozinhar, ver filmes e séries e as vezes sair para comer algo diferente. Esses momentos me ajudam a recarregar as energias para que a mente nunca falhe."
   },
 ]
@@ -68,6 +68,33 @@ const educations = [
   }
 ];
 
+const skills = [
+  {
+    title: "Linguagens de Programação",
+    exemples: "JavaScript, TypeScript, C#, Python",
+  },
+  {
+    title: "Frameworks e Bibliotecas",
+    exemples: "NodeJS, React, Express, .NET",
+  },
+  {
+    title: "Ferramentas e Tecnologias",
+    exemples: "Docker, Git, GitHub, MySQL",
+  },
+  {
+    title: "Metodologias",
+    exemples: "Metodologias Ágeis, Versionamento com Git e GitHub, Arquitetura em camadas",
+  },
+  {
+    title: "Outras",
+    exemples: "HTML, CSS Modules, Automated Testing, React Router, Redux, Context API, Hooks, UseEffect, UseState, Jest, Mocha, Chai, Sinon, JWT, Sequelize",
+  },
+  {
+    title: "Habilidades Interpessoais",
+    exemples: "Abertura à ideias e possibilidades, Autorregulação, Autogestão e organização do tempo, Tomada de decisão coletiva, Simplificação de processos para redução de tempo",
+  },
+]
+
 const experiences = [
   {
     company: "Empresa Pública de Saúde do Rio de Janeiro S/A - RioSaúde",
@@ -95,4 +122,4 @@ const experiences = [
   }
 ];
 
-export { projects, educations, experiences, abouts };
+export { projects, educations, experiences, abouts, skills };
