@@ -18,10 +18,31 @@ function App() {
     getProfile().then(data => setProfile(data));
   }, []);
 
+  useEffect(() => {
+    const addGoogleTranslateScript = () => {
+      const script = document.createElement('script');
+      script.type = 'text/javascript';
+      script.src = '//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+      document.body.appendChild(script);
+    };
+
+    const googleTranslateElementInit = () => {
+      new window.google.translate.TranslateElement(
+        { pageLanguage: 'pt', includedLanguages: 'en,pt' },
+        'google_translate_element'
+      );
+    };
+
+    window.googleTranslateElementInit = googleTranslateElementInit;
+    addGoogleTranslateScript();
+  }, []);
+
   return (
     <div className="container mx-auto px-4">
+      
       <Navbar />
       <Profile profile={profile} />
+      <div id="google_translate_element" className="my-4"></div>
       <Features />
       <PortfolioSection />
       <EducationSection />
